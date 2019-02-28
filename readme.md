@@ -1,7 +1,5 @@
 ## Flexbox ES6 Carousel
 
-[![Build Status](https://travis-ci.org/twistezo/portfolio.svg?branch=master)](https://travis-ci.org/twistezo/portfolio)
-
 ### Description
 
 Carousel written with Flexbox and ES6.
