@@ -21,3 +21,7 @@ To run in development mode: `npm run dev`
 To build for production: `npm run prod`
 
 Note thath output from above is in `docs/` for fastest deploy on github page
+
+### Latest version
+
+https://twistezo.github.io/flexbox-carousel/
