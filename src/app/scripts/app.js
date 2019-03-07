@@ -12,11 +12,9 @@ class App {
   }
 
   run() {
-    new Carousel(
-      this._sectionOneCards,
-      '.section-one .card-container',
-      3
-    ).init()
+    new Carousel(this._sectionOneCards, '.section-one .card-container', 3)
+      .init()
+      .rotateRightAfterTime(1500)
     this._appendCardsTo(this._sectionTwoCards, '.section-two .card-container')
   }
 

@@ -4,11 +4,11 @@ $max-width: 1024px;
 $card-width: 340px;
 $card-margin-right: 10px;
 $font-family-text: 'Helvetica Neue';
-$white: #ffffff;
+$white: #F4F4F4;
 $black: #000000;
 $blue: #215398;
 $light-blue: #28a6dd;
-$gray: #f5f5f5;
+$gray: #DFE2E8;
 
 @mixin strip($color) {
   background-color: $color;
@@ -51,6 +51,10 @@ body {
     background-color: $white;
     color: $black;
     margin-bottom: 15px;
+    border-radius: 5px 5px 5px 5px;
+    &:hover {
+      box-shadow: 2px 3px 18px 3px $light-blue;
+    }
     img {
       max-width: 25%;
     }
@@ -84,6 +88,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 0px 20px 0px;
     .card-container {
       display: flex;
       overflow: hidden;
@@ -111,6 +116,9 @@ body {
       font-size: 50px;
       color: $light-blue;
       cursor: pointer;
+      &:hover {
+        filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.7));
+      }
     }
     .prev {
       // ie11 hook for carousel

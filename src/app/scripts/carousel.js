@@ -15,6 +15,13 @@ class Carousel {
       cardContainer.appendChild(card)
     })
     cardContainer.lastChild.classList.add('first')
+    return this
+  }
+
+  rotateRightAfterTime = timeMs => {
+    setInterval(() => {
+      this._handleRotate('right')
+    }, timeMs)
   }
 
   _handleLeft = () => {
